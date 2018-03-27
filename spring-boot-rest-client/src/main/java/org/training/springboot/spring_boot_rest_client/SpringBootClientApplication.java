@@ -8,6 +8,7 @@ public class SpringBootClientApplication {
 	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringBootClientApplication.class, args);
+		System.out.println("Completed running:"+SpringBootClientApplication.class.getName());
 	}
 
 }
